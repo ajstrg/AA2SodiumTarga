@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title> Q3 Alternative Assessment 2</title>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Anika Justine Targa">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="revised" content="24-03-2022">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="style.css">
+	
+  <head>
+  
+  <body>
+
+    <center> <h1> GWA Grade Calculator </h1> <center>
+	
+    <table>
+
+      <tr>
+
+        <th class="header_row"> </th>
+        <th class="header_row"> Subject 1 </th>
+        <th class="header_row"> Subject 2 </th>
+        <th class="header_row"> Subject 3 </th>
+        
+      </tr>
+      
+	  <tr>
+	  
+		<th> Requirement 1 (HPS 20) </th>
+		<td> <input type="number" min="0" max="20" step="any" id="req1"> </td>
+		<td> <input type="number" min="0" max="20" step="any" id="req1_2"> </td>
+		<td> <input type="number" min="0" max="20" step="any" id="req1_3"> </td>
+		
+	  <tr>
+
+      
+	  <tr>
+	  
+		<th> Requirement 2 (HPS 30) </th>
+		<td> <input type="number" min="0" max="30" step="any" id="req2"> </td>
+		<td> <input type="number" min="0" max="30" step="any" id="req2_2"> </td>
+		<td> <input type="number" min="0" max="30" step="any" id="req2_3"> </td>
+		
+	  <tr>
+	  
+      
+	  <tr>
+	  
+		<th> Requirement 3 (HPS 50) </th>
+		<td> <input type="number" min="0" max="50" step="any" id="req3"> </td>
+		<td> <input type="number" min="0" max="50" step="any" id="req3_2"> </td>
+		<td> <input type="number" min="0" max="50" step="any" id="req3_3"> </td>
+		
+	  <tr>
+	  
+      
+	  <tr>
+	  
+		<th> </th>
+		<td> <button onclick="calcTentaGrade();"> Calculate Tenta Grade </button> </td>
+		<td> <button onclick="calcTentaGrade_2();"> Calculate Tenta Grade </button> </td>
+		<td> <button onclick="calcTentaGrade_3();"> Calculate Tenta Grade </button> </td>
+		
+	  <tr>
+      
+	  <tr>
+	  
+		<th> Tentative Grade </th>
+		<td> <div id="tenta_1"> </div> </td>
+		<td> <div id="tenta_2"> </div> </td>
+		<td> <div id="tenta_3"> </div> </td>
+		
+	  <tr>
+
+	  <tr>
+	  
+		<th> Previous Grade </th>
+		<td> <input type="number" min="1.00" max="5.00" step="0.25" id="prev_1"> </td>
+		<td> <input type="number" min="1.00" max="5.00" step="0.25" id="prev_2"> </td>
+		<td> <input type="number" min="1.00" max="5.00" step="0.25" id="prev_3"> </td>
+		
+	  <tr>
+
+	  <tr>	  
+
+		<th> </th>
+		<td> <button onclick="calcFinalGrade();"> Calculate Final Grade </button> </td>
+		<td> <button onclick="calcFinalGrade_2();"> Calculate Final Grade </button> </td>
+		<td> <button onclick="calcFinalGrade_3();"> Calculate Final Grade </button> </td>
+		
+	  <tr>
+	  
+	  <tr>
+	  
+		<th> Final Grade </th>
+		<td> <div id="final_1"> </div> </td>
+		<td> <div id="final_2"> </div> </td>
+		<td> <div id="final_3"> </div> </td>
+		
+	  <tr>	  
+	  
+	  <tr>
+	  
+		<td colspan="4"> <button onclick="calcGrade();"> Calculate Average Grade </button> </td>
+		
+	  <tr>
+	  
+	  <tr>
+	  
+		<th colspan="4"> <div id="grade"> Average Final Grade of the 3 Subjects: </div> </td>
+		
+	  <tr>	  
+	  
+    </table>
+    
+    <script src="script.js"></script>
+    
+  </body>
+
+</html>

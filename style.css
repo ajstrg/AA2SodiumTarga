@@ -1,0 +1,48 @@
+
+	h1 {
+		font-family: Karla;
+		margin-top: 1em;
+	
+	}
+
+	table {
+		margin : 0 auto;
+		border-collapse: collapse;
+		font-size: 15px;
+		font-family : Karla;
+		text-align : center;
+		border-radius: 10px 10px 0 0;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.15);
+	}
+	
+	.header_row {
+		border: none;
+		background-color: #009879;
+		color : white;
+	}
+	
+	table tbody tr:last-of-type {
+		border-bottom: 2px solid #009879;
+	
+	}
+	
+	th, td {		
+		padding: 12px 15px;
+		border: 1px solid #dddddd;
+	}
+
+	input {
+		padding: 5px;
+		padding-left: 15px;
+		vertical-align: middle;
+		text-align : center;
+		height: 20px;
+		width: 8.8em;
+		font-family : Karla;
+		font-size: 14px;
+	}
+	
+	button {
+		font-family : Karla;	
+	}
